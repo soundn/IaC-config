@@ -7,8 +7,7 @@ resource "google_compute_instance" "default" {
   name         = "ken-instance"
   machine_type = "n2-standard-2"
   zone         = "us-central1-a"
-
-  tags = ["webserver", "test"]
+  tags         = ["webserver", "test"]
 
   boot_disk {
     initialize_params {
@@ -26,10 +25,8 @@ resource "google_compute_instance" "default" {
 
   network_interface {
     network = "default"
-
     access_config {
       // Ephemeral public IP
     }
-
   }
 }
