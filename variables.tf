@@ -1,5 +1,5 @@
 variable "credentials" {
-  type = string
+  type        = string
   description = "Google Cloud service account credentials"
   sensitive   = true
 
