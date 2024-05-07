@@ -1,0 +1,4 @@
+variable "credentials" {
+    type = string
+  
+}
