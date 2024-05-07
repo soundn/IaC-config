@@ -1,8 +1,3 @@
-resource "google_service_account" "default" {
-  account_id   = "test-422618"
-  display_name = "kenvm"
-}
-
 resource "google_compute_instance" "default" {
   name         = "ken-instance"
   machine_type = "n2-standard-2"
