@@ -1,1 +1,1 @@
-credentials = "${ env.CREDENTIALS }"
+credentials = env.CREDENTIALS

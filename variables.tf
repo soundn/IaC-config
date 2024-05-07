@@ -1,4 +1,4 @@
 variable "credentials" {
-    type = string
-  
+  type = string
+
 }
