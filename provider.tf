@@ -11,5 +11,10 @@ provider "google" {
   project     = "test-422618"
   region      = "us-central1"
   zone        = "us-central1-a"
-  credentials = secrets.GOOGLE_CREDENTIALS
+   credentials = var.google_credentials
 }
+
+variable "google_credentials" {
+    type = string
+}
+
