@@ -14,7 +14,3 @@ provider "google" {
   credentials = file("/tmp/credentials.json")
 }
 
-variable "google_credentials" {
-  type = string
-}
-
