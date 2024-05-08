@@ -11,7 +11,7 @@ provider "google" {
   project     = "test-422618"
   region      = "us-central1"
   zone        = "us-central1-a"
-  credentials = var.google_credentials
+  credentials = file("/tmp/credentials.json")
 }
 
 variable "google_credentials" {
